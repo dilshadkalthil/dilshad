@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="portfolio.css">
+
+    <style>
+    body{
+      background-color: white;
+    }
+   </style>
+<script type="text/javascript"
+src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script src="portfolio.js"></script>
+<script type="text/javascript">
+(function(){
+emailjs.init({
+publicKey: "PwKVkHykPTTnp-U3L",
+});
+})();
+</script>
+
+
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-form">Service</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  project
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#campus">campus</a></li>
+                  <li><a class="dropdown-item" href="#">Bank Balance checking</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">airbnb</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav> 
+      <!-- cards -->
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src=" comp1.jpg" class="d-block w-100 h-50 " alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="comp3.jpg " class="d-block w-100 " alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="comp5.jpg " class="d-block w-100 " alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div><br>
+
+
+      <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="text-primary">About Me</h2>
+        <p style="text-align: justify; " class="fst-italic text-dark">
+            Hello! I'm Dilshad, a passionate software intern currently diving deep into the world of technology and development. With a keen interest in coding and problem-solving, I am always eager to learn and take on new challenges.
+            My journey in software development began . Since then, I've been honing my skills in various programming languages, including html,css, and exploring different facets of software engineering.
+            As an intern, I've had the opportunity to work on diverse projects that have enhanced my understanding of  like web development. I thrive in collaborative environments and enjoy the process of brainstorming and building innovative solutions with my team.
+            Beyond coding,  I'm excited about the future and look forward to contributing to innovative and impactful projects in the tech industry.
+              Let's connect and create something amazing together!
+              <br>
+              I am a computer science graduate from the University of Calicut. My educational journey began with completing my 10th and 12th grades, where I developed a strong foundation in various subjects. This solid academic background paved the way for my higher studies in computer science, allowing me to delve into the intricacies of technology and software development. My time at the University of Calicut was marked by rigorous coursework, hands-on projects, and a commitment to excellence, all of which have prepared me for a successful career in the tech industry.
+
+
+        </p>
+            </div>
+            <div class="col-md-6">
+                <img src=" second page.jpg " style="height: 80vh; width: 40vw; margin-top: 49px;margin-bottom: 49px;">
+            </div>
+
+        </div>
+
+        
+      </div>
+  <div class="container2">
+    <div class="row">
+      <div class="col-sm-6 m-0  text-dark fst-italic " id="skill">
+        <h2 class="text-primary text-decoration:underline;">Skills</h2>
+        <p style="text-align: justify;">
+          I am proficient in HTML, CSS, and JavaScript, enabling me to create structured, responsive, and interactive web applications. Additionally, I have experience with Flutter, allowing me to develop cross-platform mobile apps with efficient and appealing user interfaces. My familiarity with Git and GitHub ensures effective version control and collaboration in development projects.
+        </p>
+      </div>
+      <div class="col-md-6 h-20">
+        <img src="imgp2.jpg " style="height: 40vh; width: 95%;">
+  
+      </div>
+
+    </div>
+   <div class="container">
+    <div class="row">
+      <div class=" col-sm-6 py-4 mb-3" id="campus">
+        <img src=" project 11.jpg " style=" height: 40vh; width: 95%; margin-top: 0px;">
+
+      </div>
+      <div class="col-md-6 h-3 p-3 fw-normal fst-italic mt-3" >
+         <h2 class="text-primary text-decoration:underline;">Projects</h2>
+       <p  style="text-align: justify;">
+        Campus: Preventing Ragging with Technology
+       Introduction
+        "Campus" is an innovative mobile application aimed at creating a safer and more inclusive environment in educational institutions by preventing ragging. Built using Flutter, this cross-platform app offers a seamless user experience on both Android and iOS devices.
+       </p>
+
+      </div>
+    </div>
+     </div>
+  </div>
+  <div class="container3 border mt-2 bg-white border-0 ">
+    <div class="row   m-3" >
+      <div class="col-md-5  bg-primary text-white text-center-capitalize fst-italic rounded" style="opacity: 0.9;background-image: url(imgp3.jpg);">
+        <h2 style="font-family: fantasy;">LET CHATS,Tell Me Your Project</h2>
+        <h4>Let's Create Something together</h4>
+
+
+      </div>
+      <div class="col-md-6 py-3 h-1 p-3 " style="border-radius: 5px;box-shadow: 0 2px 5px white;" id="contact-form">
+        <h1 class="pb-2 text-primary">contact form</h1>
+        <div class="form-group">
+          <h5 for="name">Name</h5>
+          <input type="text" class="form-control" id="name1" placeholder="enter yourname">
+
+        </div>
+        <div class="form-group">
+          <h5 for="email">Email</h5>
+          <input type="email" class="form-control" id="email" placeholder="enter your email">
+      </div>
+      <div>
+        <h5 for="phone">Phone</h5>
+        <input type="tel" class="form-control" id="phone" placeholder="enter your phone number">
+      </div>
+      <div class="form-group">
+        <h5 for="message">Message</h5>
+        <textarea class="form-control" id="message" rows="3" placeholder="enter your message"></textarea>
+      </div><br>
+      <button class="btn btn-primary" onclick="sendmail()">SUBMIT</button>
+  
+    </div>
+
+  </div>
+  
+  
+
+    
+
+ 
+    
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+ <script src="/js/bootstrap.js"></script>   
+</body>
+</html>
